@@ -1,0 +1,4 @@
+---
+ssh_users:
+  - name: root
+    key: "{{ lookup('file', '/home/ljozsa/.ssh/id_rsa.pub') }}"

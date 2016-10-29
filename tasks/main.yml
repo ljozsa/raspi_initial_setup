@@ -1,0 +1,14 @@
+---
+#- name: "set password for the play" 
+#  set_fact: 
+#    ansible_ssh_pass: "{{ pi_pass }}" 
+#
+#- name: "Enable key based auth for root" 
+#  authorized_key: 
+#    user: "{{ item.name }}"
+#    key: "{{ item.key }}" 
+#  with_items: 
+#    - "{{ ssh_users }}"
+
+- name: "Gather facts"
+  setup:
