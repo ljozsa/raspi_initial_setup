@@ -1,2 +1,2 @@
 ---
-# defaults file for raspi_initial_setup
+raspi_initial_setup_first_time_run: False
